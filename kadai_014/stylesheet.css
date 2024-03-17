@@ -1,0 +1,53 @@
+html {
+  /*フォントサイズを20px*/
+  font-size: 20px;
+  
+}
+
+body {
+    /*テキストを中央寄せ*/
+     text-align: center;
+
+     /*フォントの種類を"Arial", "Meiryo", sans-serifにします。*/
+    font-family: "Arial", "Meiryo", sans-serif;
+  }
+
+h1 {
+    /*フォントの種類を”Josefin Sans”,sans-serifにします。*/
+    font-family: "Josefin Sans", sans-serif;
+
+    /*フォントの大きさをルート要素の2倍にします。*/
+    font-size: 2rem;
+
+    /*文字間は、文字の大きさの1.2倍*/
+    letter-spacing:1.2rem;
+
+    /*下線を引き、色をつける*/
+    border-bottom: 3px solid rgb(115, 115, 114);
+
+    /*影をつける*/
+  text-shadow:2px 2px 3px #f51818;
+
+}
+.font_m {
+    color: skyblue;
+}
+.font_p {
+    color: rgb(255, 192, 203);
+
+}
+
+.heading1 {
+ color:rgb(255, 192, 203) ;
+    
+}
+
+.heading2 {
+    color: skyblue;
+
+}
+
+#parent p {
+ /*太字にする*/ 
+font-weight:bold;
+  }
