@@ -1,9 +1,3 @@
-body {
-    display: flex; /* フレックスボックスに有効に */
-    flex-flow: column; /* 要素を縦に並べる */
-    min-height: 100vh; /* 最小でも画面の高さ分のbodyの高さを担保する */
-  }
-
 header {
     margin:0;
     padding-bottom: 20px;
@@ -32,7 +26,7 @@ footer {
 
 main  {
     margin: 10px; 
-    flex: 1; /* 画面の高さから他の同レイヤーの要素の高さを引いた値に */
+    
 }  
    
 #parent {
@@ -99,17 +93,14 @@ a:hover {
 @media screen and (max-width: 768px) {
     .font-size-h2 {
         font-size: 30px;
-
     }   
 
 .font-size-p {
      font-size: 25px;
-
 }
 
 #parent {
  flex-direction: column;
-
 }
 
 }
